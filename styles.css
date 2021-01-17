@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif&display=swap');
+.bg-img {
+    /* The image used */
+    background-image: url("images/homepage/homepage-option-7.jpg");
+  
+    min-height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+  
+  /* Position the navbar container inside the image */
+.container {
+    position: relative;
+    max-width: 100%;
+}
+  
+  /* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: rgba(255,255,255,0);
+}
+  
+  /* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    /* background-color: rgb(0, 21, 47); */
+    color: white;
+}
+.navbar-brand{
+    color:rgba(255,255,255,.75) !important;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em !important;
+}
+.display-4{
+    font-family: 'Anton', sans-serif;
+    font-size: 8em;
+}
+.lead{
+    font-family: 'Noto Serif', serif;
+    font-size: 1em
+}
+.jumbotron{
+    background-color: rgba(255,255,255,0); 
+    color:rgba(255,255,255,.75); 
+    padding-left: 2em; 
+    padding-right: 2em;
+}
+.bg-image{
+    background-image: url("images/homepage/homepage-option-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    padding: 1em;
+}
+.row{
+    display: flex;
+    padding: 4em;
+}
+.left-column{
+    height: 65vh; 
+    flex: 40%;
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.right-column{
+    height: 65vh; 
+    flex: 60%; 
+    
+}
+.left-column-double{
+    height: 65vh; 
+    flex: 60%; 
+}
+.right-column-double{
+    height: 65vh; 
+    flex: 40%;
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#left-col-anime{
+    background-image: url(images/anime/fullmetal-alchemist.jpg);
+}
+#left-col-japan{
+    background-image: url(images/japan/japan-city-night.jpg);
+}
+#left-col-learning{
+    background-image: url(images/learning/learning-desk.jpg);
+}
+#left-col-reading{
+    background-image: url(images/reading/reading-tea.jpg);
+}
+#left-col-coding{
+    background-image: url(images/codingandcomputers/coding-html-1.jpg);
+}
+#right-col-computers{
+    background-image: url(images/codingandcomputers/computers-custom-pc-1.jpg);
+}
+#left-col-cooking{
+    background-image: url(images/cookingandbaking/cooking-spices.jpg);
+}
+#right-col-baking{
+    background-image: url(images/cookingandbaking/baking-ingredients.jpg);
+}
+.main-heading{
+    padding-left: 1.5em;
+    padding-top: .5em;
+    margin-bottom: 0;
+    font-family: 'Anton', sans-serif;
+    color: rgb(5, 48, 97);
+}
+.main-heading-double{
+    padding-right: 1.5em;
+    padding-top: .5em;
+    margin-bottom: 0;
+    font-family: 'Anton', sans-serif;
+    color: rgb(5, 48, 97);
+}
+.brdr{
+    border-top: 1.5em solid rgb(5, 48, 97);
+    border-left: .5em solid rgb(5, 48, 97);
+    border-right: .5em solid rgb(5, 48, 97);
+    border-bottom: 1.5em solid rgb(5, 48, 97);
+}
+.pg-content{
+    padding-left: 4em;
+    font-family: 'Noto Serif', serif;
+}
+.pg-content-double{
+    padding-right: 4em;
+    font-family: 'Noto Serif', serif;
+}
+hr{  
+    height: 1.5px;  
+    margin-bottom: 1.5em;  
+    margin-block-start: 0;
+}
+.oneconpage{
+    width: 8%;
+    margin-inline-start: 3.8em;
+    background-color: rgb(67,125,201);
+}
+.twoconpage{
+    width: 8%;
+    margin-inline-start: .15em;
+    background-color: rgb(67,125,201);
+}
+.mainpg{
+    width: 5%;
+    background-color: rgba(255,255,255,.75);
+    margin-inline-start: .2em;
+}
+.button{
+    margin-left: 4em;
+    background-color: rgb(67,125,201);
+    border-color: rgb(67,125,201);
+    font-family: 'Noto Serif', serif;
+}
+.close-button{
+    background-color: rgb(67,125,201);
+    border-color: rgb(67,125,201);
+    font-family: 'Noto Serif', serif;
+    color: white;
+    font-size:.75em;
+}
+.carousel .carousel-item {
+    height: 100vh;
+    width: 35vw;
+  }
+  
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 32vw;
+    height: 100vh;
+    width: 35vw;
+  }
+.carousel{
+    background-color: rgb(2, 33, 60);
+}
+.carousel-caption{
+    left: 33em;
+    width: 50%;
+    background-color: rgb(2, 33, 60);
+    border-radius: 3em;
+    font-family: 'Anton', sans-serif;
+}
+.nav-item{
+    font-family: 'Noto Serif', serif;
+    font-size: 1em !important;
+}
+.card-img-top{
+    max-height: 12em;
+    background-size: cover;
+}
+.card-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    color: rgb(5, 48, 97);
+}
+.modal-title{
+    font-family: 'Anton', sans-serif;
+}
+.modal-body{
+    font-family: 'Noto Serif', serif;
+}
